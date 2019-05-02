@@ -23,7 +23,7 @@
                 //links non database contents. *if logged out
                 else {
                     echo '<li><a href = "index.php">Home</a></li>';
-                    echo '<li><a href = "events2.php"View>Events</a></li>';
+                    echo '<li><a href = "events2.php"View>See Events</a></li>';
                     echo '<li><a href = "locations2.php">Our Locations</a></li>';
                     echo '<li><a href = "contact.php">Contact Us</a></li>';
                     echo '<button type = "button" class = "btn btn-primary" data-toggle = "modal" data-target = "#login">Login</button>';
