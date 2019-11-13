@@ -26,3 +26,13 @@ class Connection {
         return $date_arr[2] . '-' . $date_arr[1] . '-' . $date_arr[0];
     }
 }
+
+//simple connection
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$dbname= 'eventmanagement';
+$conn = mysqli_connect($servername,$username,$password,$dbname);
+if(mysqli_connect_errno()){
+  echo "Failed to connect".mysqli_connect_errno();
+}
